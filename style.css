@@ -1,0 +1,40 @@
+body {
+    font-family: verdana, sans-serif;
+    /* font-size: 18px; */
+    margin: 0;
+    color: #333;
+}
+
+header {
+    background: #fffaf0;
+    height: 100px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 5px 0 0 10px;
+    font-weight: normal;
+}
+
+.containar {
+    width: 820px;
+    margin: 0 auto;
+}
+
+input[type ="text"] {
+    width: 130px;
+    height: 20px;
+}
+
+.btn {
+    background: lightgray;
+    padding: 2px 7px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px #333;
+    outline: 0;
+}
+
+.result {
+    border-top: 1px solid lightgray;
+    padding-top: 15px;
+}

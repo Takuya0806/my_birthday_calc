@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>日付計算</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>日付計算</h1>
+    </header>
+    <div class="containar">
+        <p>
+            誕生日<br />
+            <input type="text" name="birthday" id="birthday" value="1983-01-01">
+        </p>
+        <p><input type="button" value="送信！" onclick="getAge();" class="btn"></p>
+        <p class="result">
+            生まれてから<span id="daysPast">???</span>日経過していて、だいたい<span id="age">???</span>歳です
+        </p>
+    </div>
+
+    <script src="./calc.js"></script>
+</body>
+</html>
